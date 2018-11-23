@@ -1,0 +1,3 @@
+export const SET_LIST_ITEMS = 'SET_LIST_ITEMS';
+export const EDIT_LIST_ITEM = 'EDIT_LIST_ITEM';
+export const DELETE_LIST_ITEM = 'DELETE_LIST_ITEM';

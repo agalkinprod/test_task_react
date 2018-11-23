@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`list_reducer should delete list item 1`] = `
+Object {
+  "list_items": Array [
+    Object {
+      "id": 0,
+      "is_selected": false,
+      "text": "first",
+    },
+    Object {
+      "id": 2,
+      "is_selected": false,
+      "text": "third",
+    },
+  ],
+}
+`;
+
+exports[`list_reducer should edit list items 1`] = `
+Object {
+  "list_items": Array [
+    Object {
+      "id": 0,
+      "is_selected": false,
+      "text": "first",
+    },
+    Object {
+      "id": 1,
+      "is_selected": false,
+      "text": "second",
+    },
+    Object {
+      "id": 2,
+      "is_selected": false,
+      "text": "third",
+    },
+  ],
+}
+`;
+
+exports[`list_reducer should return proper default state 1`] = `
+Object {
+  "list_items": Array [],
+}
+`;
+
+exports[`list_reducer should set list items 1`] = `
+Object {
+  "list_items": Array [
+    Object {
+      "id": 0,
+      "is_selected": false,
+      "text": "first",
+    },
+    Object {
+      "id": 1,
+      "is_selected": true,
+      "text": "second",
+    },
+    Object {
+      "id": 2,
+      "is_selected": false,
+      "text": "third",
+    },
+  ],
+}
+`;

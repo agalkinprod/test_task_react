@@ -1,0 +1,35 @@
+.ttr-list_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid rgb(216, 216, 216);
+  background-color: white;
+  &:hover {
+    background-color: rgb(216, 216, 216);
+  }
+}
+
+.ttr-list_item-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 70%;
+  height: 100%;
+  padding: 0 5px;
+  user-select: none;
+  color: rgb(74, 74, 74);
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.ttr-list_item-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 100%;
+  padding: 0 5px;
+  cursor: pointer;
+}

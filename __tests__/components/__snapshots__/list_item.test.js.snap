@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItem /> render() should render the component 1`] = `
+<ListItem
+  deleteAction={[MockFunction]}
+  editTextAction={[MockFunction]}
+  id={1}
+  is_selected={false}
+  selectAction={[MockFunction]}
+  text="test"
+>
+  <div
+    className="ttr-list_item"
+  >
+    <Checkbox
+      onClick={[Function]}
+      state={false}
+    >
+      <div
+        className="ttr-checkbox"
+      >
+         
+        <div
+          className="ttr-checkbox-circle_unchecked"
+          onClick={[Function]}
+        />
+         
+      </div>
+    </Checkbox>
+    <div
+      className="ttr-list_item-text"
+    >
+       
+      test
+       
+    </div>
+    <div
+      className="ttr-list_item-action"
+      onClick={[Function]}
+    >
+       
+      <img
+        src="https://icongr.am/fontawesome/pencil.svg?size=22&color=000000"
+      />
+       
+    </div>
+    <div
+      className="ttr-list_item-action"
+      onClick={[Function]}
+    >
+       
+      <img
+        src="https://icongr.am/fontawesome/trash.svg?size=22&color=000000"
+      />
+       
+    </div>
+  </div>
+</ListItem>
+`;

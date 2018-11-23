@@ -1,0 +1,71 @@
+.ttr-modal_wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.ttr-modal {
+  padding: 20px;
+  width: 25%;
+  height: 20%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: white;
+  outline: 2px solid rgb(216, 216, 216);
+  outline-offset: -2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ttr-modal-input {
+  outline: none !important;
+  width: 100%;
+  height: 50px;
+  //padding: 5px;
+  font-size: 18px;
+  color: rgb(74, 74, 74);
+}
+
+.ttr-modal-main_block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.ttr-modal-button {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(216, 216, 216);
+  cursor: pointer;
+  user-select: none;
+  margin-left: 10px;
+  &:active {
+    background-color: white;
+  }
+}
+
+.ttr-modal-buttons_block {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.ttr-modal-title {
+  font-size: 18px;
+}
